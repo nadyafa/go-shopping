@@ -13,7 +13,10 @@ require (
 )
 
 require (
+	github.com/brianvoe/gofakeit/v7 v7.1.1 // indirect
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
+	github.com/gosimple/slug v1.14.0 // indirect
+	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/pgx/v5 v5.7.1 // indirect
