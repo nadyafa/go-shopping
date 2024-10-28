@@ -14,7 +14,7 @@ type User struct {
 	Email         string `gorm:"size:100;not null;uniqueIndex"`
 	Password      string `gorm:"size:100;not null"`
 	RememberToken string `gorm:"size:100;not null"`
-	CreateAt      time.Time
+	CreatedAt     time.Time
 	UpdatedAt     time.Time
 	DeletedAt     gorm.DeletedAt
 }

@@ -12,6 +12,6 @@ type Category struct {
 	Products  []Product `gorm:"many2many:product_categories"`
 	Name      string    `gorm:"size:100"`
 	Slug      string    `gorm:"size:100"`
-	CreateAt  time.Time
+	CreatedAt time.Time
 	UpdatedAt time.Time
 }

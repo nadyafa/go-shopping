@@ -14,6 +14,6 @@ type ProductImage struct {
 	Medium     string `gorm:"type:text"`
 	Small      string `gorm:"type:text"`
 	ExtraSmall string `gorm:"type:text"`
-	CreateAt   time.Time
+	CreatedAt  time.Time
 	UpdatedAt  time.Time
 }

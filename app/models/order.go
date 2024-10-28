@@ -34,7 +34,7 @@ type Order struct {
 	CancelledBy         string `gorm:"size:36"`
 	CancelledAt         time.Time
 	CancellationNote    string `gorm:"size:255"`
-	CreateAt            time.Time
+	CreatedAt           time.Time
 	UpdatedAt           time.Time
 	DeletedAt           gorm.DeletedAt
 }

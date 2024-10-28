@@ -23,7 +23,7 @@ type Product struct {
 	ShortDescription string          `gorm:"size:225"`
 	Description      string          `gorm:"type:text"`
 	Status           int             `gorm:"default:0"`
-	CreateAt         time.Time
+	CreatedAt        time.Time
 	UpdatedAt        time.Time
 	DeletedAt        gorm.DeletedAt
 }
