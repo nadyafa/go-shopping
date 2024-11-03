@@ -119,7 +119,6 @@ func Run() {
 	appConfig := AppConfig{}
 	dbConfig := DBConfig{}
 
-	// load environment
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatalf("Error on loading .env file")
